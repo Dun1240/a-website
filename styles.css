@@ -1,0 +1,33 @@
+.landing {
+  width: 100vw;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landing h2 {
+  font-size: 5rem;
+}
+
+.landing p {
+  font-size: 2rem;
+}
+
+"name": "html-css",
+"version": "1.0.0",
+"description": "A template for HTML and CSS",
+"main": "index.html",
+"scripts": {
+  "start": "serve"
+},
+"keywords": [
+  "html",
+  "css"
+],
+"author": "Ives van Hoorne",
+"license": "MIT",
+"devDependencies": {
+  "serve": "11.2.0"
+}
+
